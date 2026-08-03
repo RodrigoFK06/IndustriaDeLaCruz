@@ -3,16 +3,55 @@
 **URL:** https://propuesta-idcp-a7f3.vercel.app
 **Fecha:** 3 de agosto de 2026
 
+**Repositorio:** https://github.com/RodrigoFK06/IndustriaDeLaCruz
+⚠️ Está en público. Pásalo a privado: incluye dos fotos de stock con licencia
+premium de Freepik, que la licencia no permite redistribuir como archivos sueltos.
+
 Métricas medidas sobre la URL en vivo, viewport 390 px, 4G (4 Mbps / 70 ms RTT),
 sin caché:
 
 | | Medido | Objetivo |
 |---|---|---|
-| Peso total | **283 KB** (14 peticiones) | < 1.5 MB ✓ |
-| Carga completa | **1.45 s** | < 3 s ✓ |
-| LCP | **1.06 s** | — |
+| Peso total | **322 KB** (16 peticiones) | < 1.5 MB ✓ |
+| Carga completa | **844 ms** | < 3 s ✓ |
+| LCP | **620 ms** | — |
 | Contraste | 11/11 pares pasan **AA** para texto normal | — |
 | Detector Impeccable | **0 hallazgos** | — |
+
+## Sobre el diseño
+
+Se rehizo tres veces. La primera versión era slop: micro-rótulos en mono con
+tracking abierto, secciones numeradas «01 —» con rayita, rejillas de filetes
+simuladas con `gap-px`, banda oscura con cifras gigantes. El detector mecánico
+solo cazó uno de esos patrones; el problema era la acumulación.
+
+La versión final toma del rubro lo que es buena práctica —un solo acento, mucho
+aire, tipografía grande, fotografía que carga el diseño— y cambia de raíz lo que
+haría que se viera calcada:
+
+- **Tipografía:** Cabinet Grotesk + General Sans, autohospedadas desde Fontshare.
+  Ni Inter, ni Archivo, ni Geist, ni Plex.
+- **Acento:** el amarillo de la tolva de la mezcladora que ellos fabricaron. Sale
+  de su máquina, no de una paleta corporativa. Solo vive sobre fondo oscuro:
+  amarillo sobre claro da 1.63:1, ilegible.
+- **Ritmo:** cada sección tiene forma distinta (hero a sangre → declaración solo
+  tipográfica → cifras → foto ancha sin texto → índice denso → una cita grande y
+  dos chicas → cotizador → datos planos). No se repite el molde
+  «antetítulo + titular + párrafo + botón».
+- **Sin scroll coreografiado.** Nada de galería pineada con GSAP: pesa cientos de
+  KB y lo van a abrir con 4G. El único movimiento es un revelado de imagen de
+  ~15 líneas, y falla en abierto: si el observer no dispara, la foto igual se ve.
+
+## Fotografía
+
+Las tres fotos suyas van en un bloque propio, **«Trabajos hechos en planta»**,
+rotuladas una por una como «Foto de la empresa». Las dos de stock cargan la escala
+que el rubro pide y no se rotulan como suyas. El pie del sitio lo declara textual,
+para que él sepa de un vistazo qué reemplazar cuando nos mande fotos propias.
+
+Descartadas a propósito: una de fundición (no hacen colada, sería mentir sobre el
+proceso) y una vista amplia de taller (se lee como «esta es nuestra planta», y eso
+no lo puedo verificar).
 
 ---
 
